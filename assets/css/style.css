@@ -57,3 +57,563 @@
   color: var(--mediumorchid);
   }
   /* End of Header */
+  
+/* Body */
+body{
+background-color: var(--lightgray);
+font-family: 'Martel', serif;
+}
+/* End of Body */
+
+/* Footer */
+footer {
+background-color: var(--header-footer-background-color); 
+color: var(--mediumorchid);
+}
+
+footer a {
+text-decoration: none;
+border-bottom: 2px solid var(--mediumorchid);
+color: var(--mediumorchid);
+font-size: 1.8vw;
+font-weight: bold;
+}
+/* End Footer */
+
+/* Header nav Hover */
+.nav-effects a:hover{ 
+color: var(--mediumorchid);
+font-weight: bold;
+text-shadow: 0px 0px 20px var(--mediumorchid);
+}
+
+/* Work Projects Hover */
+.work-grid-container div:hover{
+mix-blend-mode: color-burn;
+}
+
+/* Footer hover */
+.footer-container a:hover{
+color: var(--mediumorchid);
+font-weight: bold;
+text-shadow: 0px 0px 20px var(--mediumorchid);
+}
+/* End of Hover*/
+
+/* Hero Section */
+.hero {
+height: 300px;
+background-image: url("../images/galaxy.jpg");
+border-bottom-left-radius: 30px 30px;
+border-bottom-right-radius: 30px 30px;
+background-size: cover;
+background-position:  100% 13%;
+background-attachment: fixed;
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: flex-end;
+}
+
+.hero-subtitle {
+padding-bottom: 15px;
+padding-right: 15px;
+}
+/* End Hero */
+
+/* About Me section */ 
+.about-me-wrapper {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+justify-content: center;
+margin-top: 50px;
+}
+
+.about-me-grid-container {
+width: 80%;
+display: grid;
+grid-template-columns: 1fr repeat(3, 2fr);
+grid-template-rows: repeat(4, 1fr);
+gap: 10px 10px;
+}
+
+.about-me-item.about-me-title {
+padding-top: 0px;
+font-size: 35px;
+grid-row: 1 / span 4;
+padding-right: 10px;
+text-align: right;
+border-right: 2px solid var(--about-me-work-border);
+}
+
+.about-me-item.p1 {
+padding-left: 10px;
+grid-column: 2 / span 3;
+grid-row: 1 / span 2;
+}
+
+.about-me-item.p2 {
+padding-left: 10px;
+grid-column: 2 / span 3;
+grid-row: 3 / span 2;
+}
+/* End About Me */
+
+/* Work Section */
+.work-wrapper {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+justify-content: center;
+margin-top: 50px;
+
+}
+.work-grid-container {
+width: 80%;
+display: grid;
+grid-template-columns: 1fr repeat(3, 2fr);
+grid-template-rows: repeat(10, 1fr);
+gap: 10px 10px;
+}
+
+.work-item.work-title {
+padding-top: 10px;
+font-size: 35px;
+grid-row: 1 / span 60;
+text-align: right;
+padding-right: 10px;
+border-right: 2px solid var(--about-me-work-border);
+}
+
+.work-item-project.challenge-1-refactor {
+grid-column: 2 / span 2;
+grid-row: 1 / span 40;
+background-image: url("../images/digital-marketing-meeting.jpg");
+background-size: cover;
+display: flex;
+align-items: flex-end;
+padding-left: 0px;
+padding-bottom: 15px;
+text-align: left;
+border: .25vw solid var(--rgba-border-color-opacity);
+}
+
+.work-item-project.coming-soon-one {
+grid-column: 3 /span 1;
+grid-row: 41 / span 20;
+background-image: url("../images/space-cat-one.jpg");
+background-size: cover;
+display: flex; 
+align-items: flex-end;
+padding-left: 0px;
+padding-bottom: 15px;
+text-align: left;
+border: .25vw solid var(--rgba-border-color-opacity);
+}
+
+.work-item-project.coming-soon-two {
+grid-column: 2 / span 1;
+grid-row: 41 / span 20;
+background-image: url("../images/space-cat-2.jpg");
+background-size: cover;
+display: flex;
+align-items: flex-end; 
+padding-left: 0px;
+padding-bottom: 15px;
+text-align: left;
+border: .25vw solid var(--rgba-border-color-opacity);
+}
+
+.work-item-project.coming-soon-three {
+grid-column: 4 / span 1;
+grid-row: 1 / span 20;
+background-image: url("../images/space-cat-3.jpg");
+background-size: 300px 200px, cover;
+display: flex; 
+align-items: flex-end; 
+padding-left: 0px;
+padding-bottom: 15px;
+text-align: left;
+border: .25vw solid var(--rgba-border-color-opacity);
+}
+
+.work-item-project.coming-soon-four {
+grid-column: 4 / span 1;
+grid-row: 21 / span 20;
+    
+background-image: url("../images/cathulu-one.jpg");
+background-size: cover;
+display: flex; 
+align-items: flex-end;
+padding-left: 0px;
+padding-bottom: 15px;
+text-align: left;
+border: .25vw solid var(--rgba-border-color-opacity);
+}
+
+.work-item-project.coming-soon-five {
+grid-column: 4 /span 1;
+grid-row: 41 / span 20;
+background-image: url("../images/space-cat-5.jpg");
+background-size: cover;
+display: flex;
+align-items: flex-end;
+padding-left: 0px;
+padding-bottom: 15px;
+text-align: left;
+border: .25vw solid var(--rgba-border-color-opacity);
+}
+/* En dWork */
+
+/* Span */
+.span-background {
+background-color: var(--mediumorchid);
+position: relative;
+line-height: 1.5;
+padding-left: 8px;
+padding-right: 8px;
+border-radius: 5%;
+opacity: .8;
+}
+
+.span-background.title {
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+.span-background.opacity{
+opacity: .95;
+font-size: 30px;
+}
+
+.span-background.lower-text {
+font-size: x-small;
+}
+/* End Span */
+
+/* Footer Class */
+.footer-wrapper {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 50px;
+}
+
+.footer-container {
+width: 80%;
+display: grid;
+grid-template-columns: 1fr repeat(3, 2fr);
+grid-template-rows: repeat(3,2fr);
+gap: 20px 20px; 
+}
+
+.footer-grid-item {
+text-align: center;
+}
+
+.footer-grid-item.contact-me {
+padding-top: 10px;
+font-size: 35px;
+grid-row: 1 / span 3;
+text-align: right;
+padding-right: 10px;
+border-right: 2px solid var(--mediumorchid);
+}
+
+.footer-grid-item.phone{
+grid-row: 2;
+}
+
+.footer-grid-item.email{
+grid-row: 2;
+}
+
+.footer-grid-item.git-hub{
+grid-row: 2;
+}
+/* End Footer */
+
+/* Media Screens */
+@media screen and (max-width: 980px) {
+
+header {
+    justify-content: center;
+}
+
+header h1 {
+    padding-left: 0px;
+}
+
+.hero-subtitle {
+    padding-right: 30px;
+}
+
+.span-background.opacity{
+    font-size: 25px;
+}
+
+.hero {
+background-attachment: scroll;
+}
+
+.about-me-wrapper {
+    margin-top: 20px;
+}
+
+.about-me-grid-container {
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px 5px; 
+}
+
+/* Target About Me Small Screen */
+.about-me-item.about-me-title {
+    padding-top: 0px;
+    font-size: 25px;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+    text-align: center;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-right: none;
+    border-bottom: 2px solid var(--about-me-work-border);
+}
+
+.about-me-item.p1 {
+    padding-top: 5px;
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 2;
+}
+
+.about-me-item.p2 {
+    padding-top: 5px;
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 2;
+    padding-bottom: 10px;
+}
+/* End of About Me Small Screen */
+
+/* Footer Small Screen*/
+.footer-wrapper {
+    margin-top: 20px;
+}
+
+.footer-container {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2.5px 2.5px; /* Gap on x and y grid */
+}
+
+/*Extra Padding */
+
+.footer-grid-item.contact-me {
+    padding-top: 0px;
+    font-size: 25px;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+    text-align: center;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-right: none;
+    border-bottom: 2px solid var(--mediumorchid);
+    padding-left: 25px;
+}
+
+.footer-grid-item.phone{
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 2;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.footer-grid-item.email{
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 2;
+    align-self: center;
+    padding-left: 25px;
+
+}
+
+.footer-grid-item.git-hub{
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 2;
+    align-self: center;
+    width: 20px;
+    padding-left: 80px;
+}
+/* End of Footer Small Screen*/
+}
+/* End of Media Screens 980px */
+
+/* Media Screens 768px*/
+@media screen and (max-width: 768px) {
+
+header a {
+    font-size: 3vw;
+}
+
+footer a {
+    font-size: 3vw;
+}
+
+.nav-effects a:hover{
+    font-size: 3vw; 
+}
+
+.footer-container a:hover{
+    font-size: 1.8vw;
+}
+
+.hero {
+    background-attachment: scroll;
+}
+    
+.about-me-grid-container {
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: .5fr repeat(4, 1fr);
+    gap: 5px 5px; 
+}
+
+/* Target About Me Smaller Screen */
+.about-me-item.about-me-title {
+    padding-top: 0px;
+    font-size: 25px;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+    text-align: center;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-right: none;
+    border-bottom: 2px solid var(--about-me-work-border);
+    align-self: start;
+}
+
+.about-me-item.p1 {
+    padding-left: 0px;
+}
+
+.about-me-item.p2 {
+    padding-left: 0px;
+}
+
+.work-wrapper {
+    margin-top: 15px;
+}
+
+.work-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: .5fr repeat(10, 1fr);
+    gap: 2.5px 2.5px;
+}
+
+.work-item.work-title {
+    font-size: 35px;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-bottom: 2px solid var(--about-me-work-border);
+    border-right: none;
+    align-self: start;
+}
+
+.work-item-project.challenge-1-refactor {
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 3;
+    align-items: flex-end;
+    text-align: center;
+    background-position: scroll;
+}
+
+.work-item-project.coming-soon-one {
+    grid-column: 1 /span 3;
+    grid-row: 5 / span 2;
+    align-items: flex-end;
+    text-align: center;
+    background-position: scroll;
+}
+
+.work-item-project.coming-soon-two {
+    grid-column: 1 /span 3;
+    grid-row: 7 / span 1;
+    padding-top: 30px;
+    background-position: scroll;
+    text-align: center;
+}
+
+.work-item-project.coming-soon-three {
+    grid-column: 1 /span 3;
+    grid-row: 8 / span 1;
+    background-position: scroll;
+    text-align: center;
+}
+
+.work-item-project.coming-soon-four {
+    grid-column: 1 /span 3;
+    grid-row: 9 / span 1;
+    background-position: scroll;
+    text-align: center;
+}
+
+.work-item-project.coming-soon-five  {
+    grid-column: 1 /span 3;
+    grid-row: 10 / span 1;
+    align-items: flex-end;
+    text-align: center;
+    background-position: scroll;
+}
+
+.footer-wrapper {
+margin-top: 10px;
+}
+/* End of Footer */
+}
+/* End of Media Screens 768px */
+
+/* Media Screens 575px */
+@media screen and  (max-width: 575px) {
+
+header a {
+    font-size: 4vw;
+}
+
+header nav ul {
+    padding-right: 0px;
+    justify-content: center;
+}
+
+header nav ul li {
+    padding: 2px 2px 2px 2px;
+}
+
+p{
+    font-size:5vw;
+}
+
+footer a {
+    font-size: 3.5vw;
+}
+
+.nav-effects a:hover{
+    font-size: 4vw; 
+}
+
+.footer-container a:hover{
+    font-size: 3.5vw;
+}
+
+.footer-container {
+    gap: 0px 0px;
+}
+
+.footer-grid-item.git-hub{ /*Final adjustments*/
+    padding-left: 30px;
+}
+/* End Footer */
+}
+/* End Media Screens 575px */
