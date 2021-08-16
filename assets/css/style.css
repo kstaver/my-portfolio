@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Variables */
+  :root {
+  --header-footer-background-color: #404040;
+  --mediumorchid: mediumorchid;
+  --lightgray: lightgray;
+  --about-me-work-border: #333366;
+  --rgba-border-color-opacity: rgba(148, 0, 211, 0.8);
+  }
+  
+  /* Smooth Scrolling */
+  html {
+  scroll-behavior: smooth;
+  }
+  
+  /* Header */
+  header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  background-color: var(--header-footer-background-color); 
+  }
+  
+  header h1 {
+  padding-left: 50px;
+  }
+  
+  header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-right: 0px;
+  }
+  
+  header nav ul li {
+  font-size: 1.8vw;
+  padding: 10px 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  
+  }
+  
+  header a {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-bottom: 2px solid var(--mediumorchid);
+  color: var(--mediumorchid);
+  }
+  /* End of Header */
