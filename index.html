@@ -68,24 +68,24 @@
                     <p> Work </p>
                 </div>
 
-                <div onclick="projectClicked('challenge-1-refactor')" alt="Image Displaying the Horiseon landing Page" title="Horiseon landing Page" target="_blank" style="cursor: pointer;" class="work-item-project challenge-1-refactor">
-                    <span class="span-background"> <!-- Span added to contain h3, lower text and wrapped background -->
-                        <h3>Horiseon Services</h3>
-                        <span class="lower-text">HTML/CSS</span> <!-- A small class to apply for all grid lower text -->
+                <div onclick="projectClicked('brew-finder-project')" alt="Image Displaying the Brew Finder App Page" title="Brew Finder" target="_blank" style="cursor: pointer;" class="work-item-project brew-finder-project">
+                    <span class="span-background">
+                        <h3>Brew Finder</h3>
+                        <span class="lower-text">Looking for a brewery near you? Try Brew Finder!</span>
                     </span>
                 </div>
 
-                <div alt="Image of a peeking cat with galaxy background " title="Placeholder 1" style="cursor: pointer;" class="work-item-project coming-soon-one">
+                <div onclick="projectClicked('challenge-1-refactor')" alt="Image Displaying the Horiseon landing Page" title="Horiseon landing Page" target="_blank" style="cursor: pointer;" class="work-item-project challenge-1-refactor">
                     <span class="span-background">
-                        <h3>Coming soon!</h3>
-                        <span class="lower-text">Who knows!?</span>
+                        <h3>Horiseon Services</h3>
+                        <span class="lower-text">HTML/CSS</span>
                     </span>
                 </div>
                 
-                <div alt="Image of a high cat with space background" title="Placeholder 2" style="cursor: pointer;" class="work-item-project coming-soon-two">
+                <div onclick="projectClicked('web-api-quiz')" alt="Image displaying the Web Api Quiz landing page" title="Web Api Quiz" target="_blank" style="cursor: pointer;" class="work-item-project web-api-quiz">
                     <span class="span-background">
-                        <h3>Coming soon!</h3>
-                        <span class="lower-text">Who knows!?</span>
+                        <h3>Web API Quiz</h3>
+                        <span class="lower-text">Test your knowledge on Web Dev and API!</span>
                     </span>
                 </div>
                 
@@ -141,7 +141,11 @@
     
             if (input == "challenge-1-refactor") {
                 window.open("https://kstaver.github.io/horiseon-refactored/");
-            } else {
+            } else if(input == "brew-finder-project") {
+                window.open("https://asecord92.github.io/brew-finder/");
+            } else if(input == "web-api-quiz"){
+                window.open("https://kstaver.github.io/web-API-quiz/");
+            }else{
                 return true; /* Return true as no other landing pages are ready to be displayed */
             }
         };

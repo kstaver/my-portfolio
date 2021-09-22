@@ -187,10 +187,10 @@ padding-right: 10px;
 border-right: 2px solid var(--about-me-work-border);
 }
 
-.work-item-project.challenge-1-refactor {
+.work-item-project.brew-finder-project {
 grid-column: 2 / span 2;
 grid-row: 1 / span 40;
-background-image: url("../images/digital-marketing-meeting.jpg");
+background-image: url("../images/brew-finder-page.JPG");
 background-size: cover;
 display: flex;
 align-items: flex-end;
@@ -200,10 +200,10 @@ text-align: left;
 border: .25vw solid var(--rgba-border-color-opacity);
 }
 
-.work-item-project.coming-soon-one {
+.work-item-project.challenge-1-refactor {
 grid-column: 3 /span 1;
 grid-row: 41 / span 20;
-background-image: url("../images/space-cat-one.jpg");
+background-image: url("../images/digital-marketing-meeting.jpg");
 background-size: cover;
 display: flex; 
 align-items: flex-end;
@@ -213,10 +213,10 @@ text-align: left;
 border: .25vw solid var(--rgba-border-color-opacity);
 }
 
-.work-item-project.coming-soon-two {
+.work-item-project.web-api-quiz {
 grid-column: 2 / span 1;
 grid-row: 41 / span 20;
-background-image: url("../images/space-cat-2.jpg");
+background-image: url("../images/space-cat-one.jpg");
 background-size: cover;
 display: flex;
 align-items: flex-end; 
@@ -522,7 +522,7 @@ footer a {
     align-self: start;
 }
 
-.work-item-project.challenge-1-refactor {
+.work-item-project.brew-finder-project {
     grid-column: 1 / span 3;
     grid-row: 2 / span 3;
     align-items: flex-end;
@@ -530,7 +530,7 @@ footer a {
     background-position: scroll;
 }
 
-.work-item-project.coming-soon-one {
+.work-item-project.challenge-1-refactor {
     grid-column: 1 /span 3;
     grid-row: 5 / span 2;
     align-items: flex-end;
@@ -538,7 +538,7 @@ footer a {
     background-position: scroll;
 }
 
-.work-item-project.coming-soon-two {
+.work-item-project.web-api-quiz {
     grid-column: 1 /span 3;
     grid-row: 7 / span 1;
     padding-top: 30px;
@@ -616,4 +616,3 @@ footer a {
 }
 /* End Footer */
 }
-/* End Media Screens 575px */
