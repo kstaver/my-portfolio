@@ -229,7 +229,7 @@ border: .25vw solid var(--rgba-border-color-opacity);
 .work-item-project.culinaryeats {
 grid-column: 4 / span 1;
 grid-row: 1 / span 20;
-background-image: url("../images/space-cat-3.jpg");
+background-image: url("../images/culinary.png");
 background-size: 300px 200px, cover;
 display: flex; 
 align-items: flex-end; 
