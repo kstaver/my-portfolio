@@ -226,7 +226,7 @@ text-align: left;
 border: .25vw solid var(--rgba-border-color-opacity);
 }
 
-.work-item-project.coming-soon-three {
+.work-item-project.cullinaryeats {
 grid-column: 4 / span 1;
 grid-row: 1 / span 20;
 background-image: url("../images/space-cat-3.jpg");
@@ -546,7 +546,7 @@ footer a {
     text-align: center;
 }
 
-.work-item-project.coming-soon-three {
+.work-item-project.cullinaryeats{
     grid-column: 1 /span 3;
     grid-row: 8 / span 1;
     background-position: scroll;
